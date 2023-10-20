@@ -17,6 +17,12 @@ The dataset that is used in this work is New IoTID20 dataset, which is developed
 We executed the proposed system on Google Colaboratory which facilitates the execution of arbitrary python code with GPU back-end. The compute resources used in this study consists of Nvidia K80 GPU with a memory of 12 GB. A total disk space of 358 GB was utilized to handle the data with 12 GB of RAM. The GPU memory clock was utilized at 0.82 GHz with a performance of 4.1 TFLOPS.
 The IP addresses are given in string format in the dataset. For using them as our feature data, we converted them into int or float data types. First we have converted the Source and Destination IPs into integer format using IP address library. After that feature values are assigned to label values as both of them are present in different containers. After that, we converted different categories Cat column into numbers for which we have used dummies libraries dividing each category into different column. Then we have merged those converted categories with the input table and dropped the column of category which contains string values.
 
+## Execution:
+1.	To execute the code, first download the data cleaning file which performs all the necessary operations preprocessing operations on the dataset. This includes label encoding and checking the distribution of different types of attacks in the dataset. The attacks are categorized into three major groups. This code generates a .csv file which contains the cleaned dataset.
+2.	The second step is to perform the data balancing method. The data generated from the previous file is balanced against all the classes. SMOTE oversampling is performed for data balancing and this code generates a resultant csv file with balanced data.
+3.	This balanced dataset generated from the previous file further undergoes to the feature selection phase. 
+4.	After the dataset is prepared, the first tier applies the machine learning based classifiers including the decision tree, naïve bayes and svm to classify between normal and anomaly data.
+5.	The second tier applies the hybrid deep learning model for anomaly type detection and classification. 
 
 
 ## Conclusion
