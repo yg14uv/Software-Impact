@@ -19,10 +19,12 @@ The IP addresses are given in string format in the dataset. To use them as our f
 
 ## Execution:
 1.	To execute the code, first download the data cleaning file which performs all the necessary operations preprocessing operations on the dataset. This includes label encoding and checking the distribution of different types of attacks in the dataset. The attacks are categorized into three major groups. This code generates a .csv file that contains the cleaned dataset.
-2.	The second step is to perform the data balancing method. The data generated from the previous file is balanced against all the classes. SMOTE oversampling is performed for data balancing and this code generates a resultant CSV file with balanced data.
-3.	This balanced dataset generated from the previous file further undergoes the feature selection phase. 
-4.	After the dataset is prepared, the first tier applies the machine learning-based classifiers including the decision tree, naïve Bayes, and SVM to classify between normal and anomaly data.
-5.	The second tier applies the hybrid deep learning model for anomaly type detection and classification. 
+   ![image](https://github.com/yg14uv/Software-Impact/assets/54506745/2b512b13-ce06-485b-be11-ff99c19f5eed)
+
+3.	The second step is to perform the data balancing method. The data generated from the previous file is balanced against all the classes. SMOTE oversampling is performed for data balancing and this code generates a resultant CSV file with balanced data.
+4.	This balanced dataset generated from the previous file further undergoes the feature selection phase. 
+5.	After the dataset is prepared, the first tier applies the machine learning-based classifiers including the decision tree, naïve Bayes, and SVM to classify between normal and anomaly data.
+6.	The second tier applies the hybrid deep learning model for anomaly type detection and classification. 
 
 
 ## Conclusion
