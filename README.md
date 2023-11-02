@@ -3,7 +3,7 @@ Welcome to our GitHub repository. We present our robust security mechanism named
 
 ## Data Preprocessing
 To build an effective anomaly classification system, we propose an efficient data preparation scheme that involves feature selection using PSO, data normalization, and data balancing using SMOTE. This scheme optimizes both the training process and anomaly detection, contributing to the overall effectiveness of ACS-IoT. 
-Imbalance data present in the dataset can cause the model to identify minority classes as majority classes. This can cause the model to be biased and consequently degrades the model's performance and overall quality of the classification task. To overcome this issue, we have employed the SMOTE oversampling method which synthetically generates samples of minority class.
+Imbalance data present in the dataset can cause the model to identify minority classes as majority classes. This can cause the model to be biased and consequently degrades the model's performance and overall quality of the classification task. To overcome this issue, we have employed the SMOTE oversampling method which synthetically generates samples of the minority class.
 Another important function that is performed in the preprocessing step is that we have applied Particle Swarm Optimization (PSO) as a feature selection technique in order to select the most important and distinguishing features from the input dataset. PSO not only reduced the computation cost but also saved the training time and memory. This also had an impact on the energy consumption of the system.
 
 ## Anomaly Classification
